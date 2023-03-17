@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+/*Font sizes*/
+h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+body {
+   font-family: 'Lato', sans-serif;
+}
+
+/*Navigation*/
+.navigation {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+.navigation a {
+    margin-left: 15px;
+    color: #000000;
+}
+
+.navigation li:first-of-type {
+    margin-left: 0px;
+} 
+
+/* Intro */
+.colored-background{
+    background: url('../img/newbg2.0.jpg');
+    background-size: auto;
+    background-size: 100%;
+    color: white;
+}
+
+.centered-box{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 50px;
+}
+
+.centered-box img{
+    border-radius: 177px;
+    width: 300px;
+    border: 15px solid #fff;
+}
+
+/* Socials*/
+.socials img {
+width: 126px;
+}
+
+p.scroll{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.scroll {
+    text-align: center;
+    color: #1e2f36;
+}
+
+.socials {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.socials h3 {
+    font-weight: bold;
+}
+
+/*project*/
+.projects img {
+    width: 100%;
+    
+}
+
+.projects .row {
+    padding: 40px;
+}
+
+.projects a {
+    color: #54afd9;
+}
+
+.light-background {
+    background: #f1f1f1;
+}
+
+.projects{
+    margin-top: 40px;
+}
+
+/*Contact us*/
+.contact img {
+    width: 100%;
+}
+
+.contact-heading {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact p {
+    margin: 20px;
+}
+
+iframe {
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+}
